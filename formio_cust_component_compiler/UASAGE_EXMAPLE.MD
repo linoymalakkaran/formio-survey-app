@@ -10,6 +10,11 @@ templates: SurveyCustComponent.starRatingTemplates
 });
 
 <!-- html -->
+<!-- header -->
+<link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.css">
+<script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
+<script src="~/Scripts/libs/assets/formio/survey-cust-component.js" type="text/javascript"></script>
+
 <div class="container">
     <div class="row">
         <div class="col-12">
