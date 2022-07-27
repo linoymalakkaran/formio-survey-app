@@ -1,0 +1,57 @@
+.happiness-wrapper {
+    // overflow: hidden;
+    // display: inline-block;
+  }
+  .happiness-input {
+    // position: absolute;
+    position: fixed;
+    left: 0;
+    top: -50px;
+  }
+  .happiness-emoji:hover,
+  .happiness-emoji:hover ~ .happiness-emoji {
+    background-position: 0 0;
+  }
+  .happiness-wrapper:hover .happiness-emoji:hover,
+  .happiness-wrapper:hover .happiness-emoji:hover ~ .happiness-emoji,
+  .happiness-input:checked ~ .happiness-emoji {
+    background-position: 0 0;
+  }
+  .happiness-emoji,
+  .happiness-wrapper .happiness-emoji {
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    //background:  url("http://css-stars.com/wp-content/uploads/2013/12/stars.png") 0 -16px;
+  }
+  
+  .happiness-emoji-0-0 {
+    background: url('../../../../assets/images/smiley-emojis/happiest.png');
+  }
+
+ .happiness-emoji-0-1 {
+    background: url('../../../../assets/images/smiley-emojis/happy.png');
+  }
+
+  .happiness-emoji-0-2 {
+    background: url('../../../../assets/images/smiley-emojis/nuetral.png');
+  }
+
+ .happiness-emoji-0-3 {
+    background: url('../../../../assets/images/smiley-emojis/sad.png');
+  }
+
+ .happiness-emoji-0-4 {
+    background: url('../../../../assets/images/smiley-emojis/angry.png');
+  }
+
+  .happiness-emoji-common{
+    /* background-color: darkorange; */
+    height: 50px !important;
+    width: 50px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }

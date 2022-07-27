@@ -1,0 +1,24 @@
+{
+  "name": "mg_survey_admin_portal",
+  "version": "1.0.0",
+  "description": "Survey admin portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd survey_admin_client && ng serve",
+    "build": "cd survey_admin_client && ng build",
+    "build:stage": "cd survey_admin_client && npm run config && npm run build -- --prod -c staging --aot=false --build-optimizer=false",
+    "build:prod": "cd survey_admin_client && npm run build -- --prod --aot=false --build-optimizer=false",
+    "build:prod:aot": "cd survey_admin_client && npm run build -- --prod --aot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.0.131.131/mg_survey/mg_survey_admin_portal.git"
+  },
+  "keywords": [
+    "survey"
+  ],
+  "author": "MamarTeam",
+  "license": "ISC",
+  "dependencies": {}
+}
